@@ -4,7 +4,7 @@
   <img src="nyan-cat-gif.webp" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Welcome to this Repository :)</b></h3>
+  <h3><b>Welcome to the Decode Morse Code Project :)</b></h3>
 
 </div>
 
@@ -33,18 +33,25 @@
 
 
 
-# 📖 Awsome Books With React <a name="about-project"></a>
+# 📖 Decode Morse Code <a name="about-project"></a>
 
-**Awsome Books With React** is a... Describe your project in 1 or 2 sentences.
+**Decode Morse Code** is a Ruby project that allows users to convert Morse code to text.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Language</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>Ruby</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Code Analysis</summary>
+  <ul>
+    <li>Rubocop</li>
   </ul>
 </details>
 
@@ -54,9 +61,9 @@
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- **[Use Create React APP]**
-- **[Use React Routes]**
-- **[Use React Redux]**
+- **[Morse Code to Text Conversion]** - Decode Morse code and convert it to readable text.
+- **[Ruby]** - Utilizes the Ruby programming language for the implementation.
+- **[Rubocop]** - Code analysis and linting tool used to ensure code quality.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,8 +71,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Coming soon...
-<!-- - [Live Demo Link](https://google.com) -->
+This project does not have a live demo available at the moment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,50 +85,33 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need :
-Install this:
-Node js
-Visual Studio Code
-Git
-
+In order to run this project you need:
+- Ruby installed
+- A code editor such as Visual Studio Code
+- Git
 
 
 ### Setup
 
 Clone this repository to your desired folder:
-and a open a new terminal on your visual studio code
-
-
-  
+```bash
+git clone https://github.com/benja27/decode-morse-code.git  
 
 ### Install
 
 Install this project with:
-npm install
-
-
-
+bundle install
 
 
 ### Usage
 
 To run the project, execute the following command:
-npm run start
-
-
-
-
-
-
+ruby index.rb
 
 ### Run tests
 
 To run tests, run the following command:
 npm run test
-
-
-
-
 
 
 
@@ -157,7 +146,7 @@ I recomend Render since is easy to use
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Improve user interface]**
-- [ ] **[Improve Js code]**
+- [ ] **[Improve Ruby code]**
 - [ ] **[Implement conexion to a database]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
